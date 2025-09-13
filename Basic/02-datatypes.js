@@ -1,5 +1,5 @@
 // Strings
-let name = "Diego Rea "
+let myName = "Diego Rea "
 let alias = "PacRea "
 let email = "diego@correo.com"
 
@@ -22,6 +22,15 @@ console.log(nullValue)
 // Symbol
 let mySymbol = Symbol("mysymbol")
 
-//BigInt
+// BigInt
 let myBigInt = BigInt(1222222222222222222222222222222222222)
 let myBigInt2 = 1222222222222222222222222222222222222n
+
+// Muestreo de los tipos de datos
+console.log(typeof myName)
+console.log(typeof age)
+console.log(typeof isStudent)
+console.log(typeof undefinedValue)
+console.log(typeof nullValue)
+console.log(typeof mySymbol)
+console.log(typeof myBigInt)
